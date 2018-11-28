@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <RadioGroup
+        android:id="@+id/kota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/jakarta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/jakarta" />
+
+        <RadioButton
+            android:id="@+id/jombang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jombang" />
+
+        <RadioButton
+            android:id="@+id/malang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/malang" />
+
+        <RadioButton
+            android:id="@+id/surabaya"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/surabaya" />
+
+        <RadioButton
+            android:id="@+id/london"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/london" />
+    </RadioGroup>
+
+</LinearLayout>
